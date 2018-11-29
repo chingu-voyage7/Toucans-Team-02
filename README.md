@@ -1,4 +1,4 @@
-# Goal
+# Goal:
 
 Create a responsive and functionally complete copy of the product 
 landing page.
@@ -14,7 +14,7 @@ our abilities.
 - Also, we can add to or modify the design if we feel we can do better.
 
 
-# Vision
+# Vision:
 
 
 Work together, support one another, and learn from one another to finish 
