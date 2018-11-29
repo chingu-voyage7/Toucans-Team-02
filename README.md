@@ -14,7 +14,7 @@ our abilities.
 - Also, we can add to or modify the design if we feel we can do better.
 
 
-#Vision
+# Vision
 
 
 Work together, support one another, and learn from one another to finish 
