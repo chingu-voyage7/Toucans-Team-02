@@ -1,0 +1,144 @@
+/*BASIC MARKUP*/
+
+* {
+    /*border: 1px solid red; /*Use when you need to check spacing*/
+    font-family: 'Varela Round', sans-serif;
+  
+
+}
+
+/*color pallete*/
+
+:root {
+  --color1: #4f8aa8;
+  --color2: #f3e3b4;
+  --color3: #2a4a5a;
+  --color4: #5c849a;
+  --color5: #545456;
+  --color6: #f9fbfc;
+}
+
+
+/*.body{
+    /*padding-top:135px ;
+}*/
+
+
+/*Navbar*/
+
+   .navbar {
+    background-color: var(--color6);
+    padding: 10px 20px;
+    /*border-radius: 25px;*/
+    font-weight: bold;
+    /*mix-blend-mode: difference;
+     z-index: inherit;*/}
+
+
+
+/*Content-Section start*/
+
+.headerIntro {
+  padding: 20px 40px;
+}
+
+.headerIntro p {
+  padding: 20px 20px;
+  font-size: 22px;
+}
+
+/*Content Section end*/
+
+.resource-section {
+  font-size: 20px;
+  padding: 15px 0px;
+}
+
+.resource-section a {
+  color: var(--color2);
+  background-color: var(--color3);
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.resource-section a:hover {
+  text-decoration: none;
+}
+
+
+
+/* Add Animation */
+
+
+
+/* The Close Button */
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: var(--color2);
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+/*FOOTER*/
+
+footer {
+  padding-top: 100px;
+  background-color: var(--color2);
+  color: var(--color5);
+}
+
+.about h3 {
+  padding-top: px;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+.about p {
+  padding-bottom: 30px;
+}
+
+.person {
+  border: 0px;
+  opacity: 0.7;
+  width: 200px;
+  height: 200px;
+}
+
+.person:hover {
+  box-shadow: 0 0 5px 5px var(--color3);
+}
+
+.profile-containers {
+  padding-bottom: 50px;
+}
+
+.coder-profile {
+  padding: 10px 10px 100px 10px;
+}
+
+.footer a {
+  color: var(--color3);
+}
+
+.footer a:hover {
+  color: var(--color1);
+}
