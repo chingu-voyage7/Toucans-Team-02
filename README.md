@@ -3,8 +3,8 @@
 Create a responsive and functionally complete copy of the product 
 landing page.
 
-You can see the original landing page [here] 
-(http://quomodosoft.com/html/lunatic/lunatic/index.html).
+You can see the original landing page [here](http://quomodosoft.com/html/lunatic/lunatic/index.html).
+
 
 - We'll attempt to copy the design and function of the page to the best of 
 our abilities.
@@ -20,4 +20,4 @@ our abilities.
 Work together, support one another, and learn from one another to finish 
 our project.
 
-For more info check out [wiki] (https://github.com/chingu-voyage7/Toucans-Team-02/wiki).
+For more info check out [wiki](https://github.com/chingu-voyage7/Toucans-Team-02/wiki).
