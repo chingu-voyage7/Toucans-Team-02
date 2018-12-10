@@ -7,7 +7,16 @@
 h1, h2, h3, h4, h5, h6{
     color: #22233B;
 }
-/*START SECTION FEATURE#13, BUILT BY MARCIN WICHA*/
+/* START ABOUT FEAT#13, BUILT BY MARCIN WICHA */
+/* start feat: why choose lunatic header */
+.feature-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 75px 0;
+}
+/* end feat: why choose lunatic header */
+/* start feature-card container */
 .feature-card{
     margin: 0 auto;
     padding: 60px 30px;
@@ -26,13 +35,8 @@ h1, h2, h3, h4, h5, h6{
     box-shadow : rgb(201, 201, 201) 0px 0px 30px -5.21355px;
     transform: translateY(-5px);
 }
-.feature-title{
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    margin: 0 0 75px 0;
-}
-
+/* end feature-card container */
+/* start feature-card icon */
 .feature-card-icon{
     height: 70px;
     width: 70px;
@@ -51,7 +55,8 @@ h1, h2, h3, h4, h5, h6{
     word-spacing: 0;
     transform: matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0);
 }
-
+/* end feature-card icon */
+/* start feature-card text */
 .feature-card h3{
     font-size: 24px;
     font-weight: 700;
@@ -64,5 +69,22 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     margin: 0 0 10px 0;
 }
+/* end feature-card text */
+/* start feature-card animation */
+.feature-card-1, .feature-card-2, .feature-card-3{
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+.feature-card-1{
+    animation-delay: 0.3s;
+}
 
-/*END SECTION FEATURE#13, BUILT BY MARCIN WICHA*/
+.feature-card-2{
+    animation-delay: 0.5s;
+}
+
+.feature-card-3{
+    animation-delay: 0.7s;
+}
+/* end feature-card animation */
+/* END ABOUT FEAT#13, BUILT BY MARCIN WICHA */
