@@ -162,4 +162,46 @@ h1, h2, h3, h4, h5, h6{
 /* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
 /* START VIDEO FEAT#16, BUILT BY MARCIN WICHA */
 
+.video-container{
+    padding-top: 80px;
+}
+
+.video-column{
+    padding: 0 15px;
+}
+
+.video-thumbnail{
+    border-radius: 6px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+}
+
+.video-play-btn{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #6858D8;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    line-height: 50px;
+}
+
+.video-play-btn i{
+    color: #ffffff;
+}
+
+.video-play-btn:hover{
+    background-color: #ffffff;
+}
+
+.video-play-btn:hover i{
+    color: #6858D8;
+}
 /* END VIDEO FEAT#16, BUILT BY MARCIN WICHA */
