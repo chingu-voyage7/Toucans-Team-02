@@ -1,11 +1,51 @@
-a{
-    text-decoration: none;
-    color:#56576e;
+/* General Css */
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800');
+
+/* UPDATE BY ZUBAIR */
+* {
+    font-family: 'Muli', sans-serif;
+    color: #56576E;
+    line-height: 1.6em;
+    font-weight: 400;
+    font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #22233b;
+}
 
-/*zubair*/
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #56576e;
+}
 
+input:focus,
+button:focus,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #6858db;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* END UPDATE BY ZUBAIR */
+/* General Css */
+
+/* START NAV AND BANNER FEAT#12, BUILD BY ZUBAIR */
+/* start nav */
 .nav-header{
     padding: 15px 0 15px 0;
     background: white;
@@ -17,6 +57,12 @@ a{
 
 .home{
     color: #6858db;
+}
+
+.nav-item a{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px;
 }
 
 .nav-btn{
@@ -31,29 +77,255 @@ a{
     color: white;
     cursor: pointer;
 }
+/* end nav */
 
-
-/*banner*/
-.ban-img{
-    background: url(../img/header-bg-1.jpg) no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size: cover;
+/* start banner*/
+.banner-img {
+    position: relative;
+    height: 100%;
     width: 100%;
-    height: 88vh;
-    padding-top: 50px;
+    background: url('../img/header-bg-1.jpg') no-repeat;
+    background-position-x:right;
+    background-position-y:75px;
+    background-attachment: scroll;
+    background-size: 100%;
+    padding: 120px 0;
 }
 
-/*app store buttons*/
-.app-store{
-    margin-top:80px;
+.banner-content{
+    position: relative;
+    top:18%;
+    margin-bottom: 50px;
 }
 
-.app-btn{
-    padding: 30px 40px;
-    background:#22233b;
+.bttn-icon{
+    margin-right: 15px;
+}
+
+.download-box{
+    display: flex;
+    margin-top: 60px;
+}
+
+.text-error{
+    color: #ff867a;
+}
+
+.headline{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.bttn-icon {
+    padding: 15px 50px;
+    background-color: #22233b;
+    color: #ffffff;
+    display: inline-block;
     border-radius: 100px;
+    margin-right: 10px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
 }
 
-/*end zundir*/
+.bttn-icon:focus,
+.bttn-icon:hover {
+    color: #ffffff;
+    background-color: #6858db;
+    -webkit-box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+}
+
+.bttn-icon .bttn-content {
+    position: relative;
+    padding-left: 50px;
+    display: block;
+}
+
+.bttn-icon .bttn-content .icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    width: 30px;
+}
+
+.bttn-icon .bttn-content small {
+    display: block;
+    font-size: 12px;
+}
+
+.bttn-icon .bttn-content strong {
+    display: block;
+    font-size: 18px;
+}
+
+.bttn-content small, .bttn-content strong{
+    color: #ffffff;
+}
+/* end banner*/
+/* END NAV AND BANNER FEAT#12, BUILD BY ZUBAIR */
+
+/* START ABOUT FEAT#13, BUILT BY MARCIN WICHA */
+/* start feat: why choose lunatic header */
+
+/* ADDED BY ZUBAIR */
+.feat-choose{
+    margin-top: 120px;
+}
+/* ADDED BY ZUBAIR */
+
+.feature-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 75px 0;
+}
+/* end feat: why choose lunatic header */
+/* start feature-card container */
+.feature-card{
+    margin: 0 auto;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 420px;
+    border-radius: 6px;
+    box-shadow: 0 0 30px -12px #c9c9c9;
+    transform: translateY(0px);
+    transition: 0.3s;
+}
+
+.feature-card:hover{
+    box-shadow : rgb(201, 201, 201) 0px 0px 30px -5.21355px;
+    transform: translateY(-5px);
+}
+/* end feature-card container */
+/* start feature-card icon */
+.feature-card-icon{
+    height: 70px;
+    width: 70px;
+    background-color: #f6f6f9;
+    margin: 0 45px 40px 45px;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    transform : matrix(0.707107, 0.707107, -0.707107, 0.707107, 0, 0);
+}
+
+.feature-card-icon img{
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    word-spacing: 0;
+    transform: matrix(0.707107, -0.707107, 0.707107, 0.707107, 0, 0);
+}
+/* end feature-card icon */
+/* start feature-card text */
+.feature-card h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+
+.feature-card p{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+/* end feature-card text */
+/* start feature-card animation */
+.feature-card-1, .feature-card-2, .feature-card-3{
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+.feature-card-1{
+    animation-delay: 0.3s;
+}
+
+.feature-card-2{
+    animation-delay: 0.5s;
+}
+
+.feature-card-3{
+    animation-delay: 0.7s;
+}
+/* end feature-card animation */
+/* END ABOUT FEAT#13, BUILT BY MARCIN WICHA */
+
+/* START SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
+
+/* start social-features row */
+.section-social-features{
+    padding-top: 90px;
+}
+/* end social-features row */
+/* start lunatic-icon */
+.social-feat-icon{
+    margin: 0 0 30px 0;
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeInUp;
+}
+/* end lunatic-icon */
+
+/* start features-text */
+.social-feat-heading{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 15px 0;
+    visibility: visible;
+    animation-delay: 0.5s;
+    animation-name: fadeInUp;
+}
+
+.social-feat-text{
+    font-size: 14px;
+    margin: 0 0 40px 0;
+    visibility: visible;
+    animation-delay: 0.7s;
+    animation-name: fadeInUp;
+}
+/* end features-text */
+
+/* start social-stats-box */
+.social-stats-box{
+    min-height: 100px;
+    min-width: 120px;
+    margin: 0 20px 0 0;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 20px 0px;
+    text-align: center;
+    visibility: visible;
+    animation-name: fadeInUp;
+}
+
+.stats-box-1{
+    animation-delay: 0.9s;
+}
+
+.stats-box-2{
+    animation-delay: 1.1s;
+}
+
+.stats-box-heading{
+    color:  #F9748E;
+    margin: 0 0 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.stats-box-text{
+    font-size: 18px;
+    margin: 0;
+}
+/* end social-stats-box */
+/* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
