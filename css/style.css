@@ -1,7 +1,10 @@
 * {
     font-family: 'Muli', sans-serif;
-    color: #56576E;
     line-height: 1.6em;
+}
+
+p{
+    color: #56576E;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -161,20 +164,28 @@ h1, h2, h3, h4, h5, h6{
 /* end social-stats-box */
 /* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
 /* START VIDEO FEAT#16, BUILT BY MARCIN WICHA */
-
+/* start container-position */
 .video-container{
-    padding-top: 80px;
+    padding-top: 120px;
 }
 
 .video-column{
     padding: 0 15px;
 }
-
+/* end container-position */
+/* start video-thumbnail */
 .video-thumbnail{
     border-radius: 6px;
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    max-width: 750px;
+    margin: 0 auto;
 }
 
+.video-thumbnail img{
+    border-radius: 6px;
+}
+/* end video-thumbnail */
+/* start PLAY-button */
 .video-play-btn{
     display: flex;
     position: absolute;
@@ -191,17 +202,19 @@ h1, h2, h3, h4, h5, h6{
     align-items: center;
     font-size: 26px;
     line-height: 50px;
+    padding-left: 4px;
+    transition: all 0.4s ease 0s;
 }
 
-.video-play-btn i{
+.video-play-btn, .video-play-btn:visited{
     color: #ffffff;
 }
 
 .video-play-btn:hover{
     background-color: #ffffff;
-}
-
-.video-play-btn:hover i{
     color: #6858D8;
+    box-shadow : rgb(104, 88, 219) 0px 0px 50px -10px;
+    transition : all 0.4s ease 0s;
 }
+/* end PLAY-button */
 /* END VIDEO FEAT#16, BUILT BY MARCIN WICHA */

@@ -1,3 +1,4 @@
+/* start popup-youtube */
 $(document).ready(function() {
 	$('.popup-youtube').magnificPopup({
 		disableOn: 700,
@@ -5,8 +6,7 @@ $(document).ready(function() {
 		mainClass: 'mfp-fade',
 		removalDelay: 160,
 		preloader: false,
-
-		fixedContentPos: false,
+		fixedContentPos: true,
 		iframe: {
 			markup: '<div class="mfp-iframe-scaler">'+
 					  '<div class="mfp-close"></div>'+
@@ -30,3 +30,4 @@ $(document).ready(function() {
 		  }
 	});
 });
+/* end popup-youtube */
