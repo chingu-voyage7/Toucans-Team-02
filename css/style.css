@@ -85,7 +85,7 @@ img {
     height: 100%;
     width: 100%;
     background: url('../img/header-bg-1.jpg') no-repeat;
-    background-position-x:right;
+    background-position-x: right;
     background-position-y:75px;
     background-attachment: scroll;
     background-size: 100%;
