@@ -64,7 +64,9 @@ img {
     font-weight: 600;
     padding: 20px;
 }
-
+.nav-item a:focus{
+  color: #6858db;
+}
 .nav-btn{
     padding: 15px 40px;
     color: #6858db;
