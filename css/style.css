@@ -13,10 +13,15 @@ h1, h2, h3, h4, h5, h6{
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    margin: 0 0 75px 0;
+    margin: 0 0 15px 0;
+    padding-top: 80px;
 }
 /* end feat: why choose lunatic header */
 /* start feature-card container */
+.feature-cards-container{
+    margin-top: 60px; 
+}
+
 .feature-card{
     margin: 0 auto;
     padding: 60px 30px;
@@ -107,10 +112,9 @@ h1, h2, h3, h4, h5, h6{
 
 /* start features-text */
 .social-feat-heading{
-    font-size: 36px;
-    font-weight: 700;
+    padding: 0;f
+    text-align: left;
     text-transform: capitalize;
-    margin: 0 0 15px 0;
     visibility: visible;
     animation-delay: 0.5s;
     animation-name: fadeInUp;
@@ -160,3 +164,60 @@ h1, h2, h3, h4, h5, h6{
 }
 /* end social-stats-box */
 /* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
+/* START FEAT#17, BUILT BY MARCIN WICHA */
+
+.slider-container{
+    padding: 45px 15px 0 15px;
+}
+
+.slider-card{
+    margin-top: 30px;
+    padding: 50px 30px;
+    border-radius: 6px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 30px;
+    max-height: 265px;
+    font-size: 1em;
+    transition: all 0.3s ease 0s;
+    transform: translateY(0);
+}
+
+.slider-card:hover{
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.owl-theme{
+    transition: all 1s ease 0s
+}
+
+.owl-theme div:nth-child(odd){
+    margin-top: 30px;
+  }
+
+.slider-icon-box{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.slider-card-image{
+    margin: 0 auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.slider-card-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px){
+    .slider-card-title{
+        font-size: 22px;
+        line-height: 30.8px;
+    }
+}
+/* END FEAT#17, BUILT BY MARCIN WICHA */
