@@ -1,3 +1,4 @@
+
 /* General Css */
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800');
@@ -5,8 +6,8 @@
 /* UPDATE BY ZUBAIR */
 * {
     font-family: 'Muli', sans-serif;
-    color: #56576E;
     line-height: 1.6em;
+
     font-weight: 400;
     font-size: 16px;
 }
@@ -52,7 +53,7 @@ img {
 }
 
 .nav-item{
-    padding:10px;
+    padding: 10px;
 }
 
 .home{
@@ -60,11 +61,13 @@ img {
 }
 
 .nav-item a{
-    font-size: 16px;
+    
     font-weight: 600;
     padding: 20px;
 }
-
+.nav-item a:focus{
+  color: #6858db;
+}
 .nav-btn{
     padding: 15px 40px;
     color: #6858db;
@@ -85,8 +88,8 @@ img {
     height: 100%;
     width: 100%;
     background: url('../img/header-bg-1.jpg') no-repeat;
-    background-position-x:right;
-    background-position-y:75px;
+    background-position-x: right;
+    background-position-y: 75px;
     background-attachment: scroll;
     background-size: 100%;
     padding: 120px 0;
@@ -94,7 +97,7 @@ img {
 
 .banner-content{
     position: relative;
-    top:18%;
+    top: 18%;
     margin-bottom: 50px;
 }
 
@@ -178,11 +181,27 @@ img {
 }
 /* ADDED BY ZUBAIR */
 
+=======
+}
+
+body{
+    overflow-x: hidden;
+}
+
+p{
+    color: #56576E;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #22233B;
+}
+/* START ABOUT FEAT#13, BUILT BY MARCIN WICHA */
+/* start feat: why choose lunatic header */
 .feature-title{
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    margin: 0 0 75px 0;
+    margin: 0px 0 75px 0;
 }
 /* end feat: why choose lunatic header */
 /* start feature-card container */
@@ -330,6 +349,127 @@ img {
 /* end social-stats-box */
 /* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
 
+/* START VIDEO FEAT#16 feat/cool-features, BUILT BY MARCIN WICHA */
+/* start container-position */
+.video-container{
+    padding-top: 120px;
+}
+
+.video-column{
+    padding: 0 15px;
+}
+/* end container-position */
+/* start video-thumbnail */
+.video-thumbnail{
+    border-radius: 6px;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.video-thumbnail img{
+    border-radius: 6px;
+}
+/* end video-thumbnail */
+/* start PLAY-button */
+.video-play-btn{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #6858D8;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    line-height: 50px;
+    padding-left: 4px;
+    transition: all 0.4s ease 0s;
+}
+
+.video-play-btn, .video-play-btn:visited{
+    color: #ffffff;
+}
+
+.video-play-btn:hover{
+    background-color: #ffffff;
+    color: #6858D8;
+    box-shadow : rgb(104, 88, 219) 0px 0px 50px -10px;
+    transition : all 0.4s ease 0s;
+}
+/* end PLAY-button */
+/* END VIDEO FEAT#16 feat/cool-features, BUILT BY MARCIN WICHA */
+/* START FEAT#17 feat/video, BUILT BY MARCIN WICHA */
+
+.feature-17-title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 120px 0 40px 0;
+}
+.slider-container{
+    padding: 0 15px;
+}
+
+.slider-card{
+    padding: 50px 30px;
+    border-radius: 6px;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 0px 30px;
+    max-height: 265px;
+    font-size: 1em;
+    transition: all 0.3s ease 0s;
+    transform: translateY(0);
+}
+
+.slider-card:hover{
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.owl-theme{
+    transition: all 1s ease 0s
+}
+
+.features-carousel .owl-item:nth-child(even){
+    margin-top: 30px;
+}
+
+.features-carousel .owl-stage{
+    padding: 40px 0;
+}
+
+.slider-icon-box{
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.slider-card-image{
+    margin: 0 auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.slider-card-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.2px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px){
+    .slider-card-title{
+        font-size: 22px;
+        line-height: 30.8px;
+    }
+}
+/* END FEAT#17 feat/video, BUILT BY MARCIN WICHA */
 /* START PRICING BODY */
 .pricing{
     padding-top: 90px;
