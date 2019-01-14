@@ -1,3 +1,4 @@
+
 /* General Css */
 /* Google font */
 @import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800');
@@ -7,6 +8,7 @@
     font-family: 'Muli', sans-serif;
     color: #56576E;
     line-height: 1.6em;
+
     font-weight: 400;
     font-size: 16px;
 }
@@ -180,6 +182,14 @@ img {
 }
 /* ADDED BY ZUBAIR */
 
+=======
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #22233B;
+}
+/* START ABOUT FEAT#13, BUILT BY MARCIN WICHA */
+/* start feat: why choose lunatic header */
 .feature-title{
     font-size: 36px;
     font-weight: 700;
