@@ -1,6 +1,187 @@
+
+/* General Css */
+/* Google font */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800');
+
+/* UPDATE BY ZUBAIR */
 * {
     font-family: 'Muli', sans-serif;
     line-height: 1.6em;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0 0 15px;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: #22233b;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    color: #56576e;
+}
+
+input:focus,
+button:focus,
+a:focus,
+a:hover {
+    text-decoration: none;
+    outline: none;
+    color: #6858db;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* END UPDATE BY ZUBAIR */
+/* General Css */
+
+/* START NAV AND BANNER FEAT#12, BUILD BY ZUBAIR */
+/* start nav */
+.nav-header{
+    padding: 15px 0 15px 0;
+    background: white;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.home{
+    color: #6858db;
+}
+
+.nav-item a{
+    
+    font-weight: 600;
+    padding: 20px;
+}
+.nav-item a:focus{
+  color: #6858db;
+}
+.nav-btn{
+    padding: 15px 40px;
+    color: #6858db;
+    display: inline-block;
+}
+
+.nav-btn:hover{
+    background: #6858db;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+}
+/* end nav */
+
+/* start banner*/
+.banner-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('../img/header-bg-1.jpg') no-repeat;
+    background-position-x: right;
+    background-position-y: 75px;
+    background-attachment: scroll;
+    background-size: 100%;
+    padding: 120px 0;
+}
+
+.banner-content{
+    position: relative;
+    top: 18%;
+    margin-bottom: 50px;
+}
+
+.bttn-icon{
+    margin-right: 15px;
+}
+
+.download-box{
+    display: flex;
+    margin-top: 60px;
+}
+
+.text-error{
+    color: #ff867a;
+}
+
+.headline{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.bttn-icon {
+    padding: 15px 50px;
+    background-color: #22233b;
+    color: #ffffff;
+    display: inline-block;
+    border-radius: 100px;
+    margin-right: 10px;
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.bttn-icon:focus,
+.bttn-icon:hover {
+    color: #ffffff;
+    background-color: #6858db;
+    -webkit-box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.4);
+}
+
+.bttn-icon .bttn-content {
+    position: relative;
+    padding-left: 50px;
+    display: block;
+}
+
+.bttn-icon .bttn-content .icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 30px;
+    width: 30px;
+}
+
+.bttn-icon .bttn-content small {
+    display: block;
+    font-size: 12px;
+}
+
+.bttn-icon .bttn-content strong {
+    display: block;
+    font-size: 18px;
+}
+
+.bttn-content small, .bttn-content strong{
+    color: #ffffff;
+}
+/* end banner*/
+/* END NAV AND BANNER FEAT#12, BUILD BY ZUBAIR */
+
+/* START ABOUT FEAT#13, BUILT BY MARCIN WICHA */
+/* start feat: why choose lunatic header */
+
+/* ADDED BY ZUBAIR */
+.feat-choose{
+    margin-top: 120px;
+}
+/* ADDED BY ZUBAIR */
+
+=======
 }
 
 body{
@@ -167,7 +348,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /* end social-stats-box */
 /* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
-/* START VIDEO FEAT#16, BUILT BY MARCIN WICHA */
+/* START VIDEO FEAT#16 feat/cool-features, BUILT BY MARCIN WICHA */
 /* start container-position */
 .video-container{
     padding-top: 120px;
@@ -221,8 +402,8 @@ h1, h2, h3, h4, h5, h6{
     transition : all 0.4s ease 0s;
 }
 /* end PLAY-button */
-/* END VIDEO FEAT#16, BUILT BY MARCIN WICHA */
-/* START FEAT#17, BUILT BY MARCIN WICHA */
+/* END VIDEO FEAT#16 feat/cool-features, BUILT BY MARCIN WICHA */
+/* START FEAT#17 feat/video, BUILT BY MARCIN WICHA */
 
 .feature-17-title{
     font-size: 36px;
@@ -287,4 +468,4 @@ h1, h2, h3, h4, h5, h6{
         line-height: 30.8px;
     }
 }
-/* END FEAT#17, BUILT BY MARCIN WICHA */
+/* END FEAT#17 feat/video, BUILT BY MARCIN WICHA */
