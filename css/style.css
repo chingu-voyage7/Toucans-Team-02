@@ -348,6 +348,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /* end social-stats-box */
 /* END SOCIAL FEAT#14 & FEAT#15, BUILT BY MARCIN WICHA */
+
 /* START VIDEO FEAT#16 feat/cool-features, BUILT BY MARCIN WICHA */
 /* start container-position */
 .video-container{
@@ -469,3 +470,67 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 /* END FEAT#17 feat/video, BUILT BY MARCIN WICHA */
+/* START PRICING BODY */
+.pricing{
+    padding-top: 90px;
+}
+
+.card{
+    border: none;
+}
+.price-box{
+    text-align: center;
+    padding: 50px;
+    background: url("../img/price-bg.png") no-repeat scroll right top/ auto 50%;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.price-box .price-icon{
+    height: 80px;
+}
+
+.pBox-title{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.price-box ul {
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+    color: #56576e;
+}
+
+.price-box ul li {
+    margin-bottom: 10px;
+}
+
+.price-box .price-rate {
+    color: #6858db;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.bttn-default {
+    border: 1px solid #6858db;
+    border-radius: 100px;
+    color: #6858db;
+    padding: 10px 30px;
+    display: inline-block;
+    font-weight: 700;
+    background-color: #ffffff;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+/* END PRICING BODY */
